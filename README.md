@@ -12,5 +12,5 @@
 
 <h3>Current Working features</h3>
 <p>- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media</p>
+- [] Update the website
+- [] Contact the media</p>
