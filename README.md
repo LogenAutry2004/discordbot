@@ -10,5 +10,4 @@
                                                                      
 
 ```
-<h1>Hello! This is the current working repository for the moose bot for the moose byte community.</h1>
-<h2>Developed by Logen Autry</h2>
+<h1>Hello! This is the current working repository for the moose bot for the moose byte community. > Developed by Logen Autry</h1>
