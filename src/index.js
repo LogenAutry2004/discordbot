@@ -14,18 +14,31 @@ const client = new Client({
     ]
 });
 
+// listens for when bot is ready
 client.on('ready', (c) => {
     console.log(`✔️ ${c.user.tag} is online`);
 });
+
+// listens for when a message is created and checks if message author has the true flag for the key bot
 client.on('messageCreate', (msg)=>{
         if(msg.author.bot){
             return;
         }
         if(msg.content ==='hey moosebot'){
-            msg.reply(`hey ${msg.user}`);
+            msg.reply(`hey ${msg.member}`);
         }
     }
 );
+
+client.on("interactionCreate", (int) => {
+    // returns if any other interaction occurs i.e a chat message
+    if(!int.isChatInputCommand()) return;
+
+    if(int.commandName === 'hey'){
+        int.reply('hey!');
+    }
+
+});
 
 // login password
 client.login(process.env.TOKEN);
