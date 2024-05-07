@@ -30,6 +30,7 @@ client.on('messageCreate', (msg)=>{
     }
 );
 
+// listens for commands
 client.on("interactionCreate", (int) => {
     // returns if any other interaction occurs i.e a chat message
     if(!int.isChatInputCommand()) return;
