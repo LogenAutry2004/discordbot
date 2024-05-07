@@ -10,4 +10,7 @@
 ```
 <h1>Hello, welcome to the repisotory for the current development for the moose bot for the moose byte community. This bot is being developed by the team lead Logen Autry.</h1>
 
-<h3>Current Working features<br> -[x] api token working </h3>
+<h3>Current Working features</h3>
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
